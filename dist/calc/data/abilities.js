@@ -341,6 +341,7 @@ var SV = SS.concat([
     'Good as Gold',
     'Guard Dog',
     'Hadron Engine',
+    'Heart of Diamond',
     'Hospitality',
     'Lingering Aroma',
     'Mind\'s Eye',

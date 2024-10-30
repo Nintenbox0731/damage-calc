@@ -330,6 +330,7 @@ function calculateSMSSSV(gen, attacker, defender, move, field) {
         (move.hasType('Ground') &&
             !field.isGravity && !move.named('Thousand Arrows') &&
             !defender.hasItem('Iron Ball') && defender.hasAbility('Levitate')) ||
+        (move.hasType('Steel') && defender.hasAbility('Heart of Diamond')) ||
         (move.flags.bullet && defender.hasAbility('Bulletproof')) ||
         (move.flags.sound && !move.named('Clangorous Soul') && defender.hasAbility('Soundproof')) ||
         (move.priority > 0 && defender.hasAbility('Queenly Majesty', 'Dazzling', 'Armor Tail')) ||
